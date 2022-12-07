@@ -1,8 +1,8 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/demo/src",
+  "sourceRoot": "apps/old/src",
   "projectType": "application",
-  "prefix": "demo",
+  "prefix": "old",
   "targets": {
     "build": {
       "executor": "@nativescript/nx:build",
