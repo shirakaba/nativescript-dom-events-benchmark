@@ -9,7 +9,8 @@ module.exports = {
     },
     format: {
       script: 'nx format:write',
-      description: 'Format source code of the entire workspace (auto-run on precommit hook)',
+      description:
+        'Format source code of the entire workspace (auto-run on precommit hook)',
     },
     '🔧': {
       script: `npx cowsay "NativeScript plugin demos make developers 😊"`,
@@ -17,39 +18,39 @@ module.exports = {
     },
     // demos
     apps: {
-      '...Vanilla...': {
-        script: `npx cowsay "Nothing wrong with vanilla 🍦"`,
-        description: ` 🔻 Vanilla`,
+      '...New...': {
+        script: `npx cowsay "New DOM Events 💎"`,
+        description: ` 🔻 New`,
       },
-      demo: {
+      new: {
         clean: {
-          script: 'nx run demo:clean',
+          script: 'nx run new:clean',
           description: '⚆  Clean  🧹',
         },
         ios: {
-          script: 'nx run demo:ios',
+          script: 'nx run new:ios',
           description: '⚆  Run iOS  ',
         },
         android: {
-          script: 'nx run demo:android',
+          script: 'nx run new:android',
           description: '⚆  Run Android  🤖',
         },
       },
-      '...Angular...': {
-        script: `npx cowsay "Test all the Angles!"`,
-        description: ` 🔻 Angular`,
+      '...Old...': {
+        script: `npx cowsay "Old bespoke events 🏚"`,
+        description: ` 🔻 Old`,
       },
-      'demo-angular': {
+      old: {
         clean: {
-          script: 'nx run demo-angular:clean',
+          script: 'nx run old:clean',
           description: '⚆  Clean  🧹',
         },
         ios: {
-          script: 'nx run demo-angular:ios',
+          script: 'nx run old:ios',
           description: '⚆  Run iOS  ',
         },
         android: {
-          script: 'nx run demo-angular:android',
+          script: 'nx run old:android',
           description: '⚆  Run Android  🤖',
         },
       },
