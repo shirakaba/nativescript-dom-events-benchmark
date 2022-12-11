@@ -1,7 +1,8 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.dom.events.new',
+  // I'd call it .new but that's a reserved token for Android
+  id: 'org.nativescript.dom.events.proposed',
   appResourcesPath: '../../tools/assets/App_Resources',
   android: {
     v8Flags: '--expose_gc',
